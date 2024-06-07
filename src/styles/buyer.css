@@ -1,0 +1,70 @@
+/* センタリングのスタイル */
+.B{
+    height: 1300px;
+}
+.BCB{
+    height: 300px;
+}
+.topmargi3 {
+    background-color: #e5e3e3;
+    height: 400px;
+    left: 0%;
+    right: 0%;
+}
+
+.Es2 {
+    margin-top: 10px; /* 20px から 10px に変更 */
+    text-align: center;
+    font-size: 80%;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+
+
+.important {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ff748c, #ff7b77);
+    border-radius: 50%;
+    width: 55px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+
+
+.selltitle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+
+.continer1 {
+  
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* ボタンのスタイル */
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.radio{
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}

@@ -1,0 +1,201 @@
+.vegetitle-container {
+    flex: 75%;
+    padding: 35px; /* 内部の余白 */
+    border-radius: 10px; /* 角丸 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ボックスシャドウ */
+    margin-bottom: 20px; /* 下部のマージン */
+}
+  
+.vegetitle {
+  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-size: 2em; /* フォントサイズ */
+    color: #333; /* テキストの色 */
+    text-align: center; /* 中央揃え */
+    text-transform: uppercase; /* テキストを大文字に変換 */
+    letter-spacing: 2px; /* 文字の間隔 */
+    margin: 0; /* マージンをリセット */
+}
+.vegetitle111{
+  font-weight: bolder;
+  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+  font-size: 150%; /* フォントサイズ */
+  color: #333; /* テキストの色 */
+  text-align: center; /* 中央揃え */
+  text-transform: uppercase; /* テキストを大文字に変換 */
+  letter-spacing: 2px; /* 文字の間隔 */
+  margin: 0; /* マージンをリセット */
+}
+.VEG {
+  justify-content: space-around; /* 左右に均等に配置 */
+  box-sizing: border-box;
+  background-color: rgb(252, 252, 252);
+  
+}
+.VEG2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.VEG3 {
+  margin: 1%;
+  top: 5%;
+  height: 200px;
+  width: 240px;
+  position: relative;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  display: flex;
+  background-color: #ffffff;
+ 
+}
+.VEG4 {
+  text-align: center; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 96.5%;
+  height: 25%;
+  padding: 2%; 
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: rgba(219, 219, 219, 0.8); /* 背景色を設定 */
+}
+
+.vegePicture {
+  height: 60%;
+  margin: 0 auto ; /* 上下左右のマージンを自動に設定 */
+  display: block; /* 余白の解消のために display: block を設定 */
+}
+.vegeName {
+  
+  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+  font-size: large;
+  color: #333; /* テキストの色を設定 */
+}
+
+.vegeLink {
+  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+  color: #011830; /* リンクの色を設定 */
+  font-weight: bold;
+  font-size: 100%;
+  text-decoration: none !important; 
+}
+
+.vegeLink:hover {
+  color: #0101014c;
+}
+  
+.NEXT{ 
+    text-align: center;
+    margin-bottom: 5%;
+}
+.NEXT2{ 
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+  
+.BackButton,
+.ForwardButton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #000000; /* ボーダーの色を茶色に設定 */
+  border-radius: 5px; /* 角丸を設定 */
+  color: #000000; /* テキストの色を茶色に設定 */
+  background-color:   #D2B48C; /* 背景色を茶色に設定 */
+  transition: background-color 0.3s, color 0.3s; /* ホバーエフェクトのトランジションを設定 */
+
+  /* ホバーエフェクト */
+  &:hover {
+    background-color:  rgba(207, 219, 231, 0.648); /* ホバー時の背景色を茶色に変更 */
+    color: #000000; /* ホバー時のテキストの色を白に変更 */
+  }
+}
+.matome{
+  display: flex;
+}
+.vegetitle-select{
+  margin-bottom: 1.5%;
+  padding-top: 5%;
+  width: 20%;
+  flex: 25%;
+  border-radius: 10px; /* 角丸 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ボックスシャドウ */
+
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* 両端に寄せる */
+}
+.search-container{
+  width: 490px;
+  display: block;
+  margin-bottom: 8%;
+  margin-top: 3%;
+}
+
+input#search-bar{
+  margin: 0 auto;
+  width: 85%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+  &:focus{
+    border: 1px solid #008ABF;
+    transition: 0.35s ease;
+    color: #008ABF;
+    &::-webkit-input-placeholder{
+      transition: opacity 0.45s ease; 
+      opacity: 0;
+     }
+    &::-moz-placeholder {
+      transition: opacity 0.45s ease; 
+      opacity: 0;
+     }
+    &:-ms-placeholder {
+     transition: opacity 0.45s ease; 
+     opacity: 0;
+     }    
+   }
+ }
+
+.search-icon{
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -62px;
+  right: -6%;
+}
+
+@media screen and (max-width: 600px) {
+  .vegetitle111{
+    font-weight: bolder;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-size: 10%; /* フォントサイズ */
+    color: #333; /* テキストの色 */
+    text-align: center; /* 中央揃え */
+    text-transform: uppercase; /* テキストを大文字に変換 */
+    letter-spacing: 2px; /* 文字の間隔 */
+    margin: 0; /* マージンをリセット */
+  }
+  .vegeName {
+    font-size: 30%;
+  }
+  .vegetitle-container {
+    flex: 75%;
+    padding: 3%; 
+    margin-bottom: 2%; 
+}
+  
+}

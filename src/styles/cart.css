@@ -1,0 +1,175 @@
+.NNN {
+    margin-top: 7%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    font-size: 150%;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+.NN {
+    font-size: 130%;
+    margin: 2%;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+
+.NN2 {
+    color: red;
+    font-size: 130%;
+    margin: 2%;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+  
+  
+
+.nas11 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid rgb(53, 53, 53); /* 追加：border-topの値を指定 */
+}
+
+
+.nas33 {
+  flex: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 30%;
+  height: auto;
+  margin-left: 8%;
+  border: 2px solid #8e8e8e;
+}
+
+.nas44 {
+    flex: 20%;
+    margin-left: 8%;
+}
+
+.nas55{
+    flex: 15%;
+    margin: auto;
+}
+
+.nas66{
+    flex: 30%;
+    margin: auto;
+}
+
+.end{
+  width: 90%;
+  margin: auto;
+}
+
+.totalprice{
+    font-size: 200%;
+    text-align: right;
+    margin-right: 10px; /* 適宜調整 */
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+
+.button_solid007 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.button_solid007 p {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #6bb6ff;
+    letter-spacing: 0.04rem;
+    display: inline-block;
+    position: relative;
+}
+
+.button_solid007 p:before,
+.button_solid007 p:after {
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #6bb6ff;
+}
+
+.button_solid007 p:before {
+    left: -30px;
+    -webkit-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+
+.button_solid007 p:after {
+    right: -30px;
+    -webkit-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+}
+
+.button_solid007 a {
+    font-weight: 1000;
+    text-decoration: none;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+    background: #6bb6ff;
+    filter: drop-shadow(0px 2px 4px #ccc);
+    border-radius: 3px;
+    margin-left: auto; /* 右側に寄せる */
+}
+
+.button_solid007 a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px -5px rgb(0 0 0 / 15%), 0 0 5px rgb(0 0 0 / 10%);
+}
+
+@media screen and (max-width: 600px) {
+    .NNN {
+        margin-top: 16%;
+        margin-left: 8%;
+        margin-bottom: 2%;
+        font-size: 100%;
+    }
+    .NN {
+        font-size: 3%;
+        margin: 2%;
+        font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    }
+    .NN2 {
+        font-size: 15%;
+        margin: 2%;
+        font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    }
+    .BuyB {
+        width: 10%;
+        text-align: center;
+        font-size: 20%;
+        padding: 5% 14%;
+        margin: 0;
+      }
+      .nas11 {
+        width: 100%;
+    }
+    .totalprice{
+        font-size: 100%;
+        margin-right: 5%; /* 適宜調整 */
+    }
+    .button_solid007 a {
+        margin-top: 5%;
+        max-width: 15%;
+        font-size: 10%;
+        padding: 10px 25px;
+        color: #ffffff;
+        transition: 0.3s ease-in-out;
+        filter: drop-shadow(0px 2px 4px #ccc);
+        border-radius: 3px;
+    }
+    
+    .button_solid007 a:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 15px 30px -5px rgb(0 0 0 / 15%), 0 0 5px rgb(0 0 0 / 10%);
+    }
+}

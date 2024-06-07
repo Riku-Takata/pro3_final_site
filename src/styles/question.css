@@ -1,0 +1,49 @@
+.qapage-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .qapage-title {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000; /* ブルー色 */
+  }
+  
+  .qa-item {
+    background-color: #ffffff; /* グレー色の背景 */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .qa-question {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-size: 24px;
+    color: #000000; /* 濃いグレー色 */
+    margin-bottom: 10px;
+   
+  }
+  
+  .qa-answer {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .qapage-title {
+      font-size: 100%;
+    }
+    .qa-question {
+      font-size: 80%;
+    }
+    .qa-answer {
+      font-size: 50%;
+    }     
+  }

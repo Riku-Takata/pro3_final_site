@@ -1,0 +1,50 @@
+.content-container {
+    max-width: 800px;
+    margin: 10%  auto;
+    padding: 20px;
+    background-color: #ffffff; /* コンテンツの背景色 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影の追加 */
+}
+    
+.page-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+    
+.criteria-container {
+    margin-top: 20px;
+}
+    
+.criteria-title {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-size: 24px;
+    color: #0c283b; /* 見出しの色 */
+    margin-bottom: 10px;
+}
+    
+.criteria-list {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    list-style-type: square;
+    padding-left: 20px;
+}
+    
+.criteria-list li {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+    .page-title {
+      font-size: 110%;
+    }  
+    .criteria-title {
+        font-size: 80%;
+    }
+    .criteria-list li {
+        font-size: 5%;
+    }
+}

@@ -1,0 +1,69 @@
+.VEG11{
+    margin: 5%;
+  }
+  .VEG12 {
+    display: flex;
+  }
+  
+  .VEG12 :hover {
+    color: #c1bebec3;
+  }
+  
+  .flex {
+    display: flex; /*横並び*/
+  }
+  
+  .VEG13 {
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 8%;
+    height: 2000%;
+    border: 2px solid #e5e5e5;
+    justify-content: space-around;
+  }
+  
+  .VEG14 {
+    flex: 1;
+    
+  }
+  
+  .VEG15 {
+    margin: auto;
+    display: block;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 30%; /* 要素の幅を設定 */
+  }
+  
+  .carrot4 {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carrot4:hover {
+    transform: scale(1.1);
+  }
+  
+  .vegeLink:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .VEG13 {
+      width: 100%;
+      margin-top: 5%;
+      margin-left: 1%;
+      height: 20%;
+    }
+  
+  }
+  

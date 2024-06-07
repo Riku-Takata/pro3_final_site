@@ -1,0 +1,91 @@
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.hamburger-icon span {
+  width: 35px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px;
+  transition: 0.4s;
+  display: flex;
+}
+
+.hamburger-icon.open span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+/* メニューのスタイル */
+.menu {
+  position: fixed;
+  left: 0px; /* 最初はビューポートの外に配置 */
+  width: 150px;
+  height: 400px;
+  background-color: rgba(71, 70, 67, 0.89); /* RGBA形式で透明度を指定 */
+  transition: left 0.3s ease; /* 修正：transitionをleftに変更 */
+}
+
+.menu.open {
+  left: 0px;
+}
+
+/* 閉じるボタンのスタイル */
+.menu-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* メニューアイテムのスタイル */
+.menu p {
+  margin: 12%;
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+.menu p:hover {
+color: #150b54; /* 好みのホバーカラーに変更してください */
+}
+
+@media screen and (max-width: 600px) {
+  /* メニューのスタイル調整 */
+  .menu {
+    width: 100%;
+  }
+
+  .menu p {
+    margin: 5%;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    cursor: pointer;
+  }
+  .hamburger-icon span {
+    width: 20%;
+    height: 2px;
+    background-color: #333;
+    margin: 3.7%;
+    transition: 0.4s;
+    display: flex;
+  }
+}

@@ -1,0 +1,61 @@
+.main-container {
+    max-width: 800px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-container {
+    padding: 20px;
+    background-color: #f0f3f0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-header {
+    text-align: center;
+  }
+  
+  .page-title {
+    font-weight: 1000;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+  }
+  
+  .section-content {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-weight: 1000;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: 80%;
+    }
+    .page-title {
+      font-size: 100%;
+    }
+    .qa-answer {
+      font-size: 50%;
+    }     
+    p{
+      font-size: 10%;
+    }
+  }
+  
+  
+  

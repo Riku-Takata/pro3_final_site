@@ -1,0 +1,38 @@
+.sliderContainer {
+    flex: 30%;
+    position: relative;
+    width: 500px; /* 適切な幅に変更してください */
+    height: 300px; /* 適切な高さに変更してください */
+   margin-top: 4%;
+    overflow: hidden;
+  }
+  
+  .sliderImage {
+    margin: auto;
+    width: 70%;
+    height: auto;
+    border: 2px solid #828282;
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .sliderImage {
+    width: 30%;
+  }
+  .sliderContainer {
+    flex: 30%;
+    position: relative;
+    width: 100%; /* 適切な幅に変更してください */
+    height: 100%; /* 適切な高さに変更してください */
+   margin-top: 4%;
+    overflow: hidden;
+  }
+}

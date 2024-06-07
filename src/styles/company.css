@@ -1,0 +1,56 @@
+.header3 {
+    text-align: center;
+    /*background: linear-gradient(to bottom, #f4f8f4, #c7e6c9); /* グラデーション */
+    color: rgb(48, 46, 46);
+    padding: 20px;
+}
+
+.header3 h1 {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.header3 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* 画像に角丸をつける */
+}
+
+.main-content {
+    /*background: #c7e6c9; /* グラデーション */
+    padding: 20px;
+}
+
+.company-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.company-info h2 {
+    color: #333;
+    font-size: 24px;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+
+.company-info p {
+    font-weight: bold;
+    line-height: 1.6;
+    color: #000000;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header3 h1 {
+        font-size: 100%;
+    }
+    .company-info h2 {
+        font-size: 100%;
+    }
+    .company-info p {
+        font-size: 20%;
+    }
+}

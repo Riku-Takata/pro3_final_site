@@ -1,0 +1,293 @@
+.IMGSIZE{
+    margin-top: 5%;
+  }
+  
+  
+  .nas1 {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      display: flex;
+      align-items: center;
+      width: 100%;
+  }
+  
+  .nas{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff; /* コンテンツの背景色 */
+    box-shadow: 10px 0 10px -5px rgba(0, 0, 0, 0.1), -10px 0 10px -5px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+    
+    .nas2 {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .nas8{
+      margin-bottom: 10%;
+    }
+    .nas9 {
+      text-align: center;
+      font-size: 150%;
+      margin-bottom: 10px;
+      font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    }
+    .nas10 {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    }
+    
+  .nas3 {
+    flex: 40%;
+    width: 20%;
+    height: auto;
+    margin-left: 15%;
+    border: 2px solid #434242;
+  }
+  
+  
+  .nas4 {
+      align-items: center;
+      justify-content: center; /* テキストを中央揃えにする */
+      text-align: left; /* テキストの先頭を左揃えに保つ */
+      margin-left: 5%;
+      flex: 30%;
+  }
+  
+  .N {
+    font-size: 130%;
+    margin: 2%;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+  }
+  
+  .N2 {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .nas2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  
+  
+  
+  @import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+  
+  .btn,
+  button.btn {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-size: 100%;
+    font-weight: 900;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+  }
+  
+  .btn-tag {
+    position: relative;
+    padding: 1.25rem 3rem 1.25rem 80px;
+    color: #fc8d8d;
+    background:  #fc8d8d;
+  }
+  
+  .btn-tag:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    content: "";
+    border-radius: 0.5rem 0 0 0.5rem;
+    background: rgba(0, 0, 0, 0.07);
+  }
+  
+  .btn-tag:hover {
+    color: #fff;
+    background: #d3d3d3;
+  }
+  
+  .btn-tag i {
+    font-size: 120%;
+    position: absolute;
+    top: 50%;
+    left: 20px; /* 左側の余白調整 */
+    transform: translateY(-50%);
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  /* FontAwesomeアイコンの色を白に変更 */
+  .btn-tag .fa-shopping-cart {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 10px; /* アイコンの位置を微調整 */
+    transform: translateY(-50%);
+  }
+  .icon-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* 左側の余白調整 */
+    transform: translateY(-50%);
+  }
+  
+  .BuyB {
+    width: 7%;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  
+  
+  .BuyB:hover {
+    background-color: #f0f0f0;
+    color: #555;
+  }
+  .Small{
+    margin: auto;
+    width: 30%;
+    border: 2px solid #828282;
+  
+  }
+  .image-container {
+    flex: 20%;
+    display: grid;
+    grid-template-columns: 1fr; /* 1つの列に画像を配置 */
+    gap: 10px; /* 画像間の余白を設定 */
+  }
+  
+  .image-viewer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+  }
+  
+  .large-image {
+    margin: auto;
+    width: 50%;
+  }
+  
+  .Itiran{
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-size: larger;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #212529;
+  }
+  
+  .Itiran:hover{
+    
+    text-decoration: underline; /* ホバー時に下線を追加 */
+  }
+  .Itiran2{
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #212529;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .N {
+      font-size: 40%;
+      margin: 2%;
+    }
+      .btn,
+    button.btn {
+      font-size: 10%; /* ボタン内の文字サイズを10%に設定 */
+      padding: 0.5% 1.5%; 
+    }
+    .nas9 {
+      font-size: 80%;
+    } 
+    .nas10 {
+      font-size: 50%;
+    }
+    .nas1 {
+      margin-top: 0;  /* スマホ用では上のマージンを0にする（変更可能） */
+      margin-bottom: 0;  /* スマホ用では下のマージンを0にする（変更可能） */
+      display: block;  /* スマホ用ではデフォルトのブロック要素の表示にする（変更可能） */
+      align-items: normal;  /* スマホ用ではアラインアイテムを初期値に戻す（変更可能） */
+      width: auto;  /* スマホ用では横幅を自動にする（変更可能） */
+    }
+    .nas4 {
+      text-align: center;
+      margin: auto;
+    }
+    .Small{
+      margin: auto;
+      width: 10%;
+      border: 2px solid #828282;
+    
+    }
+    .image-container {
+      display: block;
+    }
+    .IMGSIZE{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+    .N2 {
+      width: 2%;
+      height: auto;
+      margin-right: 5px;
+    }
+    .svg-inline--fa{
+      height: em;
+    }
+    .btn-tag .fa-shopping-cart {
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 10px; /* アイコンの位置を微調整 */
+      transform: translateY(-200000%);
+    }
+    .icon-wrapper {
+      position: absolute;
+      top: 50%;
+      left: 20px; /* 左側の余白調整 */
+      transform: translateY(-20000000%);
+    }
+  }
+  
