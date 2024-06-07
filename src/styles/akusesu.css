@@ -1,0 +1,43 @@
+.akusesu-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    
+.akusesu-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+    
+.akusesu-title {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-weight: 1000;
+    font-size: 24px;
+    color: #333;
+}
+    
+.akusesu-description {
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+    font-weight: 1000;
+    font-size: 16px;
+    color: #666;
+}
+    
+.map-container {
+    margin: 0 auto; /* 左右のマージンをautoにして中央揃え */
+    width: 80%; /* 適切な幅を指定 */
+}
+
+
+@media screen and (max-width: 600px) {
+    .akusesu-title {
+        font-size: 100%;
+    }
+    .akusesu-description {
+        font-size: 60%;
+    }
+       
+        
+}

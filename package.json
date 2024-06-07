@@ -1,5 +1,5 @@
 {
-  "name": "pro3-site",
+  "name": "carrot-crop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-google-maps/api": "^2.19.2",
+    "@splidejs/splide": "^4.1.4",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-router-dom": "^6.21.2",
+    "react-slick": "^0.30.0",
+    "slick-carousel": "^1.8.1",
+    "splide-nextjs": "^2.4.23",
+    "stripe": "^14.14.0",
+    "use-shopping-cart": "^3.2.0"
   }
 }
