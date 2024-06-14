@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import VLC from'./varietylistconponent'
 
 export default function company() {
   

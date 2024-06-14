@@ -1,6 +1,3 @@
-import Header from'./header'
-import Link from "next/link";
-import Info from'./info'
 import React, { useState } from 'react'
 import { useRouter } from 'next/router';
 
@@ -109,14 +106,10 @@ export default function Home() {
   }
   return (
     <>
-      <header>
-
-      </header>
       <div className="topmargi"></div>
       <div className="B">
         <div className="topmargi2">
         <body>
-          <Header/>
           <div className="Sellnum">
             <h1 className ="Es1">
               販売手順について

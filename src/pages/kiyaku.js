@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Header from './header';
-import VLC from'./varietylistconponent'
 
 export default function kiyaku() {
   

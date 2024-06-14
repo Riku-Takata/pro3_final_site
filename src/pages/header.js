@@ -10,17 +10,17 @@ export default function Header(props) {
           <HamburgerIcon />
         </div>
         <div className="shopname">
-          <img src="/image/carroticon2.png" className="carroticon" />
+          <img src="/image/carroticon2.png" width="24" height="24" className="carroticon" />
           <Link href="/" className="title">Carrot Crop</Link>
-          <img src="/image/carroticon2.png" className="carroticon" />
+          <img src="/image/carroticon2.png" width="24" height="24" className="carroticon" />
         </div>
         <div className="syousai">
           <>
           <Link href="/login">
-            <img src="/image/loginicon.png" className="ilog" />
+            <img src="/image/loginicon.png" width="24" height="24" className="ilog" />
           </Link>
           <Link href="/cart">
-            <img src="/image/carticon.png" className="icart" />
+            <img src="/image/carticon.png" width="24" height="24" className="icart" />
           </Link>
           </>
         </div>
