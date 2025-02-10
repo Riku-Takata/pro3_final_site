@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+大学の講義（`programing-3`）で作成したWebアプリです。
 
-## Getting Started
+# Overview
 
-First, run the development server:
+[制作物]：Carrot Crop（規格外作物ECサイト）
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[背景]：「社会課題を取り扱うWebアプリを作成する」という授業課題があった。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[目的]：「物価高騰」「異常気象による農作物への悪影響」という社会課題から『異常気象によってできてしまった規格外作物を安く消費者に届けるサイト』を作成しようと思った。ペルソナとして物価高騰に苦しむ消費者と異常気象によって規格外作物を抱える農家を考えた。課題解決のためのサイトの機能として①作物の出品、②出品作物の販売、③作物の購入を主な機能として考えた。
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+[製作時期]：2週間
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[チーム人数]：3人 ( バックエンドと一部デザインを担当 )
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[使用技術]：React、CSS、JavaScript、Azure data studio、Azure SQL Server
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+<img width="1907" alt="1" src="https://github.com/user-attachments/assets/fa57993b-014a-40b2-9321-4e1920e7824f" />
 
-To learn more about Next.js, take a look at the following resources:
+# What I did
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+主にバックエンドとバックエンドに紐づくフロントエンドおよびデザイン部分の実装を担当した。実装としては主に以下のことが挙げられる。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **商品情報を登録する機能**
+    
+    データベースにデータをインサートする操作をFormを用いて行った。データをインサートする際に作物の種類を判別する機能を作成するため、入力Formをセレクト型にし、データベースにはその種類に対応する整数をインサートすることで入力情報を判別しやすいような実装を行った。
+    
+- **商品情報を閲覧する機能**
+    
+    データベースから出品物のデータを取り出し、閲覧できるようにした。出品物の一覧を行うページとそのページから特定の作物をクリックすることで表示される詳細ページに分け、各ページで表示するための情報をセレクトして特定のパラメータの情報を表示するように実装した。また、一覧のページではカテゴリーに応じて作物を種類別に絞り込みながら表示する機能も実装した。
+    
+- **カート機能**
+    
+    商品の詳細ページからデータをカートのデータテーブルにインサートすることで実装を行った。カートのページではカートのデータテーブルの情報を一覧で表示し、商品の個数に応じて購入する個数を動的に変更することができる。また、購入個数に応じて購入金額も動的に変更することができるようにした。
+    
+[制作物の動画リンク](https://file.notion.so/f/f/cf4d83ce-503d-4767-90b5-e7e89af6ae69/70bab630-4be0-41d9-82da-52ed94823da5/localhost_3000_-_Google_Chrome_2024-07-09_11-07-57.mp4?table=block&id=f5120462-b354-4ba0-80f4-a0e61841ac19&spaceId=cf4d83ce-503d-4767-90b5-e7e89af6ae69&expirationTimestamp=1739188800000&signature=x78DD6sQzc1iWDMGHSq-S5lT6FJK4Aw06SxJBdUDEPk&downloadName=localhost_3000+-+Google+Chrome+2024-07-09+11-07-57.mp4)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+↑ - 1:10 他のチームメンバーの実装（サイトの規約やマップの実装など）, 1:11 -  私の実装（先に述べたデータベース操作や機能など）
